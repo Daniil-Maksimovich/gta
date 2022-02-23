@@ -1,0 +1,177 @@
+.info__hero img[src="../img/info-hero-1.png"] {
+  right: -400px;
+  bottom: -50px
+}
+
+.info__hero img[src="../img/info-hero-2.png"] {
+  right: -350px
+}
+
+.info__hero img[src="../img/info-hero-3.png"] {
+  right: -400px
+}
+
+.info__hero img[src="../img/info-hero-4.png"] {
+  right: -400px
+}
+
+.info__hero img[src="../img/info-hero-5.png"] {
+  right: -400px
+}
+
+.info__hero img[src="../img/info-hero-6.png"] {
+  right: -350px
+}
+@media (max-width: 1700px) {
+  .info__hero img {
+    position: relative
+  }
+
+  .info__hero img[src="../img/info-hero-1.png"] {
+    right: -300px;
+    bottom: -50px
+  }
+
+  .info__hero img[src="../img/info-hero-2.png"] {
+    right: -250px
+  }
+
+  .info__hero img[src="../img/info-hero-3.png"] {
+    right: -300px
+  }
+
+  .info__hero img[src="../img/info-hero-4.png"] {
+    right: -300px
+  }
+
+  .info__hero img[src="../img/info-hero-5.png"] {
+    right: -300px
+  }
+
+  .info__hero img[src="../img/info-hero-6.png"] {
+    right: -250px
+  }
+}
+
+@media (max-width: 1600px) {
+  .info__text{
+    overflow-y: auto;
+    height: 55vh;
+    padding-right: 20px;
+  }
+  .info__text::-webkit-scrollbar {
+    display: block !important;
+    width: 8px;
+    background-color: rgba(255, 255, 255, 0.082);
+    border-radius: 100px;
+  }
+  .info__text::-webkit-scrollbar-thumb {
+    border-radius: 100px;
+    background-color: #fff;
+    width: 10px;
+  }
+  .benefits{
+    margin-top: 80px;
+  }
+  .info__hero img {
+    position: relative;
+    height: 500px
+  }
+
+  .info__hero img[src="../img/info-hero-1.png"] {
+    right: -270px;
+    bottom: -90px
+  }
+
+  .info__hero img[src="../img/info-hero-2.png"] {
+    height: 600px;
+    right: -270px;
+    bottom: -130px
+  }
+
+  .info__hero img[src="../img/info-hero-3.png"] {
+    right: -270px
+  }
+
+  .info__hero img[src="../img/info-hero-4.png"] {
+    height: 400px;
+    right: -270px
+  }
+
+  .info__hero img[src="../img/info-hero-5.png"] {
+    right: -270px
+  }
+
+  .info__hero img[src="../img/info-hero-6.png"] {
+    height: 450px;
+    right: -200px
+  }
+
+}
+
+@media (max-width: 1100px) {
+  .info__text{
+    overflow-y: visible;
+    height: auto;
+    padding-right: 0;
+  }
+  .info__text::-webkit-scrollbar {
+    display: none !important;
+  }
+  .info__text::-webkit-scrollbar-thumb {
+    display: none !important;
+  }
+  .info__hero {
+    right: auto !important;
+    left: 50%;
+    -webkit-transform: translate(-50%) !important;
+    transform: translate(-50%) !important
+  }
+
+  .info__hero img {
+    right: 0 !important
+  }
+
+  .info__hero img[src="../img/info-hero-2.png"] {
+    bottom: -230px !important
+  }
+
+  .info__hero img:not([src="../img/info-hero-1.png"]) {
+    bottom: -100px
+  }
+
+}
+
+@media (max-width: 650px) {
+  .info__hero {
+    position: static;
+    -webkit-transform: none !important;
+    transform: none !important
+  }
+
+  .info__hero img {
+    display: block;
+    position: static;
+    height: 400px !important;
+    width: auto;
+    margin: 48px auto 0 !important
+  }
+
+  .info__hero .bg {
+    display: none
+  }
+}
+@media (max-width: 576px) {
+  .about__title h2 br{
+    display: none;
+  }
+}
+
+
+@media (max-width: 325px) {
+  .info__hero img {
+    height: auto !important;
+    width: 100%;
+    margin-top: 24px
+  }
+}
